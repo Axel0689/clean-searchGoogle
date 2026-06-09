@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Google History Cleaner",
+  "version": "1.0",
+  "description": "Aggiunge un pulsante per eliminare rapidamente le vecchie ricerche su Google.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Google History Cleaner"
+  },
+  "icons": {
+    "16": "assets/icon.png",
+    "32": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  }
+}
