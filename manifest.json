@@ -5,9 +5,7 @@
   "description": "Aggiunge un pulsante per eliminare rapidamente le vecchie ricerche su Google.",
   "content_scripts": [
     {
-      "matches": [
-        "https://www.google.com/*"
-      ],
+      "matches": ["https://www.google.com/*"],
       "js": ["content.js"]
     }
   ],
